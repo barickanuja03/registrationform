@@ -1,0 +1,95 @@
+/*img{
+    width:100%;
+    height:50%;
+} */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+position: relative;
+background-repeat:no-repeat;
+background-image:url('wallpaper.jpg');
+background-size: cover;
+}  
+form{
+    width:600px;
+    height:310px;
+    text-align: center;
+    background-color: rgba(244, 241, 241, 0.128); 
+    opacity:1;
+position:absolute;
+margin:170px 0px 0px 450px;
+border-radius:19px 19px 19px 19px;
+box-sizing: border-box;
+
+
+}
+.hero-section {
+display:inline-block;
+}
+#heading{
+    font-size: 30px;
+    color:white;
+line-height: 30px;
+margin:10px 10px 10px 10px;
+}
+input{
+    width:200px;
+    height:30px;
+    border-radius: 5px 5px 5px 5px;
+    line-height:30px;
+    margin-right:20px;
+}
+.level{
+    text-align: start;
+    color:rgb(240, 228, 228);
+    font-size: 15px;
+    font-style: italic;
+    line-height: 35px;
+}
+.button{
+    width:60px;
+    height:30px;
+    background-color: rgb(245, 215, 215) ;
+    color:rgb(18, 17, 17);
+    font-size:15px;
+    margin:16px 0px 0px -375px; 
+    display: inline-block;
+}
+.button:hover{
+    background-color: rgb(117, 117, 248);
+    color:beige;
+}
+/* #button2{
+    width:60px;
+    height:30px;
+    background-color: rgb(245, 215, 215) ;
+    color:rgb(18, 17, 17);
+    font-size:15px;
+    margin:0px 0px 0px -300px;
+}
+.btn btn-primary:hover{
+    transition: all 4s linear 5s;
+} */
+.login{
+    width:60px;
+    height:30px;
+    background-color: rgb(245, 215, 215) ;
+    color:rgb(18, 17, 17);
+    font-size:15px;
+    margin:16px 0px 0px -160px; 
+    display: inline-block;
+}
+.login:hover{
+    background-color: rgb(117, 117, 248);
+    color:beige;
+}
+@media (max-width : 470px)
+{
+    form{
+        width:88%;
+    }
+}

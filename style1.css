@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    background-repeat:no-repeat;
+    background-image:url('wallpaper.jpg');
+    background-size: cover;
+    }  
+ .form1
+ {
+        width:400px;
+        height:310px;
+        text-align: center;
+        background-color: rgba(244, 241, 241, 0.128); 
+        opacity:1;
+        position:absolute;
+        margin:180px 0px 0px 550px;
+        border-radius:19px 19px 19px 19px;
+        box-sizing: border-box;
+ }
+ #heading{
+    font-size: 30px;
+    color:white;
+line-height: 30px;
+margin:10px 10px 10px 10px;
+}
+ input{
+    width:200px;
+    height:30px;
+    border-radius:5px;
+    line-height:30px;
+    margin-right:20px;
+}
+.level{
+    text-align: start;
+    color:rgb(240, 228, 228);
+    font-size: 15px;
+    font-style: italic;
+    line-height: 35px;
+    margin:0px 90px;
+}
+.login{
+    width:60px;
+    height:30px;
+    background-color: rgb(245, 215, 215) ;
+    color:rgb(18, 17, 17);
+    font-size:15px;
+    margin:16px 0px 0px -160px; 
+    display: inline-block;
+}
+.login:hover{
+    background-color: rgb(117, 117, 248);
+    color:beige;
+}
+@media (max-width : 100%)
+{
+    .form1{
+        width:50%;
+    }
+}
